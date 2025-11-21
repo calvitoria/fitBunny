@@ -23,7 +23,7 @@ class FitBunny(commands.Bot):
         print("Slash commands synced.")
 
     async def on_ready(self):
-        print(f"🐇 FitBunny is online!")
+        print("🐇 FitBunny is online!")
 
 
 bot = FitBunny()
